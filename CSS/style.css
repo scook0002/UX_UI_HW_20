@@ -1,0 +1,307 @@
+/* Nav Bar */
+.nav-item-one {
+    font-family: Bebas Neue;
+    font-size: 30px;
+    padding: 18.8px;
+    background-color: #00AFB9;
+    opacity: .85;
+    text-align: center;
+  }
+
+  .nav-item-one:hover {
+    background-color: #72b6ba;
+  }
+  
+  .nav-link {
+    color: black;
+  }
+  
+  .nav-item-two {
+    font-family: Bebas Neue;
+    font-size: 30px;
+      padding: 18.8px;
+      background-color: #FED9B7;
+    opacity: .85;
+      text-align: center;
+  }
+
+  .nav-item-two:hover {
+    background-color: #fae6d4;
+  }
+  
+  .nav-item-three {
+    font-family: Bebas Neue;
+    font-size: 30px;
+      padding: 18.8px;
+      background-color: #0081A7;
+    opacity: .85;
+      text-align: center;
+  }
+
+  .nav-item-three:hover {
+    background-color: #458ca1;
+  }
+  
+  .nav-item-four {
+      font-family: Bebas Neue;
+    font-size: 30px;
+      padding: 18.8px;
+      background-color: #F07167;
+    opacity: .85;
+      text-align: center;
+  }
+
+  .nav-item-four:hover {
+    background-color: #f0ada8;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    background-color: white;
+    color: black;
+    padding-top: 90px;
+  }
+
+  .display-4 {
+    font-family: Bebas Neue;
+    font-size: 60px;
+  }
+
+  .lead {
+    font-family: M Plus 1;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .goal {
+    font-family: M Plus 1;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .timeline {
+    font-family: Bebas Neue;
+    font-size: 23px;
+    font-weight: normal;
+  }
+
+  .appPics {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainpic {
+    padding-left: 8%;
+    padding-bottom: 15%;
+  }
+
+/* Research Section */
+.section3 {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+.research {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+/* Definition Section */
+.section4 {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.definition {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.UserSight {
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+
+.valueProp {
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+
+.ProbState {
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+
+.text {
+    font-family: M Plus 1;
+    font-size: 16px;
+}
+
+/* Iterations Section */
+.section5 {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iteration {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+.mt {
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+.mb {
+    font-family: M Plus 1;
+    font-size: 16px;
+}
+
+.mr {
+    width: 80px;
+    padding-right: 30px;
+}
+
+/* Prototype Section */ 
+.section6 {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.prototype {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+.section7 {
+    width: 100%;
+    background:#FDFCDC;
+}
+
+.backtotop {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+h5 {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.18538em;
+    padding-top: 1%;
+}
+
+.connect {
+    color: black;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 7.5%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+   margin-top: 1.5%;
+}
+
+.font1 {
+    color: black;
+    font-family: M Plus 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.solid-red {
+    width: 174px;
+    height: 50px;
+    background: #F07167;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.solid-red:hover {
+    background-color: #FED9B7;
+}
+
+h6 {
+    font-family: M Plus 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 7.5%;
+    padding-bottom: 1.5%;
+}
