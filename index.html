@@ -3,7 +3,6 @@
   <head>
     <title> UX/UI Homework 20 </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Add link to your own custom stylesheet below -->
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
     
     <meta charset="UTF-8">
@@ -24,10 +23,18 @@
     <!-- Used Bootstrap Col System -->
     <section>
 <div class="row">
-  <div class="col nav-item-one" href="#Research">Research</div>
-  <div class="col nav-item-two" href="#ProblemStatement">Problem Statement</div>
-  <div class="col nav-item-three" href="#Iterations">Iterations</div>
-  <div class="col nav-item-four" href="#Prototype">Prototype</div>
+  <div class="col nav-item-one"> 
+    <a class="nav-item-one" href="#Research"> Research </a>
+  </div>
+  <div class="col nav-item-two">
+    <a class="nav-item-two" href="#Definition"> Definition </a>
+  </div>
+  <div class="col nav-item-three">
+    <a class="nav-item-three" href="#Iterations"> Iterations</a>
+  </div>
+  <div class="col nav-item-four">
+    <a class="nav-item-four" href="#Prototype"> Prototype </a>
+  </div>
 </div>
     </section>
 
@@ -35,156 +42,145 @@
     <section class="section2">
     <div class="jumbotron">
   <div class="container">
-    <h1 class="display-4"> SpiritTravel App </h1>
-    <p class="lead"> Challenge: Design a travel app that enables users to easily access a schedule/itinerary curated from selected travel plans and activities.</p>
-    <p class="goal"> Goal: Users are able to receive a comprehensive schedule/itinerary displaying their travel plans and activities in one place, with the option to share their plans with others. </p>
-    <p class="timeline"> Timeline: 3 Weeks </p>
+    <h1 class="display-4 grow"> SpiritTravel App </h1>
+    <p class="lead grow"> Challenge </p>
+    <p class="desc"> Design a travel app that enables users to easily access a schedule/itinerary curated from selected travel plans and activities</p>
+    <p class="lead grow"> Goal </p>
+    <p class="desc"> Users are able to receive a comprehensive schedule/itinerary displaying their travel plans and activities in one place, with the option to share their plans with others</p>
+    <p class="timeline grow"> Timeline: 3 Weeks </p>
   </div>
 </div>
     </section>
 
     <section class="appPics">
-    <img src="images20/Screenshot 2023-02-14 at 7.29 3.png" class="mainpic">
-    <img src="images20/Screenshot 2023-02-13 at 8.49 6.png" class="mainpic">
-    <img src="images20/Screenshot 2023-02-13 at 8.49 5.png" class="mainpic">
-</section>
-
-    <!-- Bootstrap 4 Col System -->
-    <section class="section3">
-      <h id="Research" class="research">Research</h>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-          <div class="card" style="width: 18rem;">
-  <img src="images20/UserPersonaGrace.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">User Persona</h5>
-    <p class="card-text">Grace Johnson is prioritizes a budget when traveling, takes trips on a whim, and values organizing her travel plans.</p>
-    <a href="#" class="btn btn-primary">Read more</a>
-  </div>
-</div>
-        </div>
-        
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-          <div class="card" style="width: 18rem;">
-  <img src="images20/UserInterviewScript.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Interview Script</h5>
-    <p class="card-text">5 virtual interviews were conducted with individuals who have traveled before and enjoy traveling.</p>
-    <a href="#" class="btn btn-primary">Read more</a>
-  </div>
-</div>
-          
-        </div>
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-          <div class="card" style="width: 18rem;">
-  <img src="images20/AffinityDiagramSorted.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Affinity Diagram</h5>
-    <p class="card-text">Based on interviewees' insights, I organized 6 categories: Pain points, Preferences, Travel habits, Hobbies & lifestyle, Planning habits, and Non-negotiables. </p>
-    <a href="#" class="btn btn-primary">Read more</a>
-  </div>
-</div>
-          
-        </div>
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-          <div class="card" style="width: 18rem;">
-  <img src="images20/CompetitorAnalysis.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Competitor Analysis</h5>
-    <p class="card-text">I learned that FlipIt was my biggest competitor but, FlipIt also offered great insight into what I could improve and incorporate into my own design.</p>
-    <a href="#" class="btn btn-primary">Read more</a>
-  </div>
-</div>
-          
-        </div>
-          </section>
-      
-          <!-- Bootstrap 4 Col System -->
-      <section class="section4">
-        <h class="definition">Definition</h>
-        <div class="container1">
-  <div class="row">
-    <div class="col-sm">
-      <h class="UserSight">User Insight</h>
-      <p class="text">A free-spirited traveler with the desire to gain new unique experiences needs to have access to all the activity options a destination offers, that can be easily transferred to a simple to use schedule because, it is important that they make the most of their time traveling.</p>
-    </div>
-    <div class="col-sm">
-      <h class="valueProp">Value Proposition</h>
-      <p class="text">SpiritTravel is a travel app that allows our users to access a simple schedule curated from an array of selected activities.</p>
-    </div>
-    <div class="col-sm">
-      <h class="ProbState">Problem Statement</h>
-      <p class="text">I believe giving a variety of activity options that can easily be selected and inputted into a day-to-day schedule will achieve fulfillment and satisfaction of users by allowing them to make the most of their time traveling.</p>
-    </div>
-  </div>
-</div>
-      </section>
-      
-      <!-- Media Object Components -->
-      <section class="section5">
-        <h class="iteration">Iterations</h>
-        <ul class="list-unstyled">
-  <li class="media">
-    <img src="images20/SpiritLogout.png" class="mr">
-    <div class="media-body">
-      <h5 class="mt">Added a logout button</h5>
-      <p class="mb">Users were searching for a logout button but could not find one. Users wanted the ability to log out of their accounts to protect their privacy.</p>
-    </div>
-  </li>
-  <li class="media my-4">
-    <img src="images20/SpiritExport.png" class="mr">
-    <div class="media-body">
-      <h5 class="mt">Resize and relocate the export button displayed on pictures depicting travel locations</h5>
-      <p class="mb">Users thought the original placement of the export button was not intuitive. Users wanted the export button to be larger and more visible.</p>
-    </div>
-  </li>
-  <li class="media">
-    <img src="images20/SpiritHome.png" class="mr">
-    <div class="media-body">
-      <h5 class="mt">Removed the search bar located on the home screen</h5>
-      <p class="mb">Users felt there was not a need for the search bar on the home screen. Users thought the search bar only needed to be on the screens used to find travel plans and activities or to look for previous/current travel plans.</p>
-    </div>
-  </li>
-</ul>
-      </section>
-      
-      <!-- Bootstrap 4 Col System -->
-      <section class="section6">
-        <h class="prototype">Prototype</h>
-        <div class="row">
-  <img src="images20/spirittravelone.png" class="col">
-  <img src="images20/spirittraveltwo.png" class="col">
-  <img src="images20/spirittravelthree.png" class="col">
-  <img src="images20/spirittravelfour.png" class="col">
-</div>
-
-      </section>
-    
-  </body>
-
-  <!-- Footer Section -->
-  <section class="section7">
-    <a href="#back">
-        <div class="backtotop">
-            <h5> BACK TO TOP </h5>
-        </div>
-    </a>
-
-    <div class="footertext">
-        <h2 class="connect"> Contact me! </h2>
-        <h3 class="font1">I'd love to answer any questions you might have!</h3>
-    </div>
-
-    <div class="contact">
-        <button class="solid-red"> FIND ME ON LINKEDIN </button>
-        <button class="solid-red"> WRITE ME AN EMAIL </button>
-    </div>
-
-    <h6> @ <b> 2023 Sarah Cook </b> All Rights Reserved. </h6>
+      <img src="images20/Screenshot 2023-02-14 at 7.29 3.png" class="mainpic grow" alt="mainpicImg">
+      <img src="images20/Screenshot 2023-02-13 at 8.49 6.png" class="mainpic grow" alt="mainpicImg">
+      <img src="images20/Screenshot 2023-02-13 at 8.49 5.png" class="mainpic grow" alt="mainpicImg">
   </section>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</html>
+  
+      <!-- Bootstrap 4 Col System -->
+      <section class="section3">
+        <h id="Research" class="research grow">Research</h>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card grow" style="width: 18rem;">
+    <img src="images20/UserPersonaGrace.png" class="card-img-top" alt="cardImage">
+    <div class="card-body">
+      <h5 class="card-title">User Persona</h5>
+      <p class="card-text">Grace Johnson is prioritizes a budget when traveling, takes trips on a whim, and values organizing her travel plans.</p>
+    </div>
+  </div>
+          </div>
+            
+          </div>
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card grow" style="width: 18rem;">
+    <img src="images20/AffinityDiagramSorted.png" class="card-img-top" alt="cardImage">
+    <div class="card-body">
+      <h5 class="card-title">Affinity Diagram</h5>
+      <p class="card-text">Based on interviewees' insights, I organized 6 categories: Pain points, Preferences, Travel habits, Hobbies & lifestyle, Planning habits, and Non-negotiables. </p>
+    </div>
+  </div>
+            
+          </div>
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card grow" style="width: 18rem;">
+    <img src="images20/CompetitorAnalysis.png" class="card-img-top" alt="cardImage">
+    <div class="card-body">
+      <h5 class="card-title">Competitor Analysis</h5>
+      <p class="card-text">I learned that FlipIt was my biggest competitor but, FlipIt also offered great insight into what I could improve and incorporate into my own design.</p>
+    </div>
+  </div>
+            
+          </div>
+            </section>
+        
+            <!-- Bootstrap 4 Col System -->
+        <section class="section4">
+          <h id="Definition" class="definition grow"> Definition </h>
+          <div class="container1">
+    <div class="row">
+      <div class="col-sm grow">
+        <h class="UserSight">User Insight</h>
+        <p class="text">A free-spirited traveler with the desire to gain new unique experiences needs to have access to all the activity options a destination offers, that can be easily transferred to a simple to use schedule because, it is important that they make the most of their time traveling.</p>
+      </div>
+      <div class="col-sm grow">
+        <h class="valueProp">Value Proposition</h>
+        <p class="text">SpiritTravel is a travel app that allows our users to access a simple schedule curated from an array of selected activities.</p>
+      </div>
+      <div class="col-sm grow">
+        <h class="ProbState">Problem Statement</h>
+        <p class="text">I believe giving a variety of activity options that can easily be selected and inputted into a day-to-day schedule will achieve fulfillment and satisfaction of users by allowing them to make the most of their time traveling.</p>
+      </div>
+    </div>
+  </div>
+        </section>
+        
+        <!-- Media Object Components -->
+        <section class="section5">
+          <h id="Iterations" class="iteration grow">Iterations</h>
+          <ul class="list-unstyled">
+    <li class="media">
+      <img src="images20/SpiritLogout.png" class="mr">
+      <div class="media-body">
+        <h5 class="mt">Added a logout button</h5>
+        <p class="mb">Users were searching for a logout button but could not find one. Users wanted the ability to log out of their accounts to protect their privacy.</p>
+      </div>
+    </li>
+    <li class="media my-4">
+      <img src="images20/SpiritExport.png" class="mr">
+      <div class="media-body">
+        <h5 class="mt">Resize and relocate the export button displayed on pictures depicting travel locations</h5>
+        <p class="mb">Users thought the original placement of the export button was not intuitive. Users wanted the export button to be larger and more visible.</p>
+      </div>
+    </li>
+    <li class="media">
+      <img src="images20/SpiritHome.png" class="mr">
+      <div class="media-body">
+        <h5 class="mt">Removed the search bar located on the home screen</h5>
+        <p class="mb">Users felt there was not a need for the search bar on the home screen. Users thought the search bar only needed to be on the screens used to find travel plans and activities or to look for previous/current travel plans.</p>
+      </div>
+    </li>
+  </ul>
+        </section>
+        
+        <!-- Bootstrap 4 Col System -->
+        <section class="section6">
+          <h id="Prototype" class="prototype grow">Prototype</h>
+          <div class="row">
+    <img src="images20/spirittravelone.png" class="col">
+    <img src="images20/spirittraveltwo.png" class="col">
+    <img src="images20/spirittravelthree.png" class="col">
+    <img src="images20/spirittravelfour.png" class="col">
+  </div>
+  
+        </section>
+      
+    </body>
+  
+    <!-- Footer Section -->
+    <section class="section7">
+      <a href="#back">
+          <div class="backtotop">
+              <h5> BACK TO TOP </h5>
+          </div>
+      </a>
+  
+      <div class="footertext">
+          <h2 class="connect"> Contact me! </h2>
+          <h3 class="font1">I'd love to answer any questions you might have!</h3>
+      </div>
+  
+      <div class="contact">
+          <button class="solid-red"> FIND ME ON LINKEDIN </button>
+          <button class="solid-red"> WRITE ME AN EMAIL </button>
+      </div>
+  
+      <h6> @ <b> 2023 Sarah Cook </b> All Rights Reserved. </h6>
+    </section>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </html>

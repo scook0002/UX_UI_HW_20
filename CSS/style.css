@@ -6,14 +6,11 @@
     background-color: #00AFB9;
     opacity: .85;
     text-align: center;
+    color: black;
   }
 
   .nav-item-one:hover {
     background-color: #72b6ba;
-  }
-  
-  .nav-link {
-    color: black;
   }
   
   .nav-item-two {
@@ -23,6 +20,7 @@
       background-color: #FED9B7;
     opacity: .85;
       text-align: center;
+      color: black;
   }
 
   .nav-item-two:hover {
@@ -36,6 +34,7 @@
       background-color: #0081A7;
     opacity: .85;
       text-align: center;
+      color: black;
   }
 
   .nav-item-three:hover {
@@ -49,6 +48,7 @@
       background-color: #F07167;
     opacity: .85;
       text-align: center;
+      color: black;
   }
 
   .nav-item-four:hover {
@@ -60,20 +60,30 @@
     background-color: white;
     color: black;
     padding-top: 90px;
+    text-align: center;
   }
 
   .display-4 {
     font-family: Bebas Neue;
     font-size: 60px;
+    padding-bottom: 30px;
+  }
+
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .grow:hover {
+    transform: scale(1.1);
   }
 
   .lead {
-    font-family: M Plus 1;
-    font-size: 20px;
+    font-family: Bebas Neue;
+    font-size: 30px;
     font-weight: normal;
   }
 
-  .goal {
+  .desc {
     font-family: M Plus 1;
     font-size: 20px;
     font-weight: normal;
@@ -83,6 +93,7 @@
     font-family: Bebas Neue;
     font-size: 23px;
     font-weight: normal;
+    padding-top: 20px;
   }
 
   .appPics {
@@ -95,8 +106,8 @@
   }
 
   .mainpic {
-    padding-left: 8%;
     padding-bottom: 15%;
+    padding: 3%;
   }
 
 /* Research Section */
@@ -107,6 +118,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5%;
 }
 
 .container-fluid {
@@ -123,6 +135,15 @@
     font-size: 50px;
     line-height: 60px;
     padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.research:hover {
+  color: #00AFB9;
+}
+
+.card:hover {
+  background-color:#72b6ba;
 }
 
 /* Definition Section */
@@ -145,9 +166,14 @@
     padding-bottom: 50px;
 }
 
+.definition:hover {
+  color:#FED9B7;
+}
+
 .container1 {
     display: flex;
     justify-content: space-evenly;
+    padding:5%;
 }
 
 .UserSight {
@@ -170,6 +196,11 @@
     font-size: 16px;
 }
 
+.col-sm:hover {
+  background-color:#fae6d4;
+  border-radius: 20%;
+}
+
 /* Iterations Section */
 .section5 {
     width: 100%;
@@ -188,6 +219,11 @@
     font-size: 50px;
     line-height: 60px;
     padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.iteration:hover {
+  color:#0081A7;
 }
 
 .mt {
@@ -203,6 +239,11 @@
 .mr {
     width: 80px;
     padding-right: 30px;
+}
+
+.media:hover {
+  background-color:#458ca1;
+  border-radius: 20%;
 }
 
 /* Prototype Section */ 
@@ -224,6 +265,11 @@
     font-size: 50px;
     line-height: 60px;
     padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.prototype:hover {
+  color:#F07167;
 }
 
 /* Footer */
@@ -304,4 +350,12 @@ h6 {
     text-align: center;
     margin-top: 7.5%;
     padding-bottom: 1.5%;
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+  .mainpic {
+    height: auto;
+    width: 100%;
+  }
 }
