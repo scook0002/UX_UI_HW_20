@@ -118,7 +118,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5%;
 }
 
 .container-fluid {
@@ -142,8 +141,16 @@
   color: #00AFB9;
 }
 
+.cardContainer {
+  padding: 5%;
+}
+
 .card:hover {
   background-color:#72b6ba;
+}
+
+.card {
+  margin:5%;
 }
 
 /* Definition Section */
@@ -272,6 +279,13 @@
   color:#F07167;
 }
 
+.protoPic {
+  margin: 5%;
+  width: 50%;
+  height: auto;
+  border: black solid 2px;
+}
+
 /* Footer */
 .section7 {
     width: 100%;
@@ -354,8 +368,10 @@ h6 {
 
 /* Media Queries */
 @media screen and (max-width:600px) {
-  .mainpic {
+  .appPics {
     height: auto;
     width: 100%;
   }
+
+
 }
